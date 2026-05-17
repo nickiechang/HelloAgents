@@ -1,0 +1,32 @@
+{
+  "name": "hello-agents",
+  "version": "0.2.9",
+  "description": "灵活、可扩展的多智能体框架 - 基于Datawhale Hello-Agents教程",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./core": "./core/index.js",
+    "./agents": "./agents/index.js",
+    "./tools": "./tools/index.js",
+    "./memory": "./memory/index.js",
+    "./protocols": "./protocols/index.js",
+    "./rl": "./rl/index.js",
+    "./utils": "./utils/index.js",
+    "./context": "./context/index.js",
+    "./evaluation": "./evaluation/index.js"
+  },
+  "author": "HelloAgents Team",
+  "email": "jjyaoao@126.com",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.0.0",
+    "dotenv": "^16.0.0",
+    "uuid": "^9.0.0",
+    "tiktoken": "^1.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
